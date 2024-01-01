@@ -1,0 +1,20 @@
+﻿#root {
+    width: 100%;
+    height:100vh;
+    margin: 0;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #ffd800;
+}
+
+tr:nth-child(odd) {
+    background: red;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
